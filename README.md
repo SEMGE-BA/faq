@@ -2,6 +2,6 @@
 
 * Inciando um novo projeto a partir do appbase
 * Contribuindo com um novo projeto
-* Testes
-* Docker
-* Boas práticas com PHP
+* [Testes](./testes.md)
+* [Docker](./comando_docker.md)
+* [Boas práticas com PHP](./boas_praticas_php.md)
