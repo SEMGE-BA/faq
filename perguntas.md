@@ -8,7 +8,8 @@
       * Alterar em repositories : "url": "http://192.168.6.12/semge-core-1.0.5.zip",
 
 
-* If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+* ERROR: Couldn't connect to Docker daemon at htt+docker://localunixsocket - is it running?
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
     * Como resolver:
 
 
