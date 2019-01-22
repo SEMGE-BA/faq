@@ -13,6 +13,12 @@ If it's at a non-standard location, specify the URL with the DOCKER_HOST environ
     * Como resolver:
        * Adicinar o usuário ao grupo Docker - rode o seguinte comando `sudo usermod -aG docker [nome_do_usuario]` ou `sudo usermod -aG docker $USER` onde `$USER` é a variável de ambiente do linux que traz o nome do usuário logado.
 
+* [Composer\Downloader\TransportException]
+  The "http://192.168.6.12/christi/semge-christi-0.0.7.zip" file could not be downloaded: failed to open stream: No route to host
+  * Como Resolver: ?
+
+
+
 
 # ERROS LARAVEL
 
