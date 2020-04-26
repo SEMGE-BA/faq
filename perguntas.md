@@ -22,6 +22,12 @@ If it's at a non-standard location, specify the URL with the DOCKER_HOST environ
 
 # ERROS LARAVEL
 
+# ERROS DE FERRAMENTAS
 
-
-
+* Erro de timezone - ORA-01882: região de fuso horário  não encontrada
+  * Sqldeveloper
+    * Abrir o arquivo `/opt/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf`
+    * Adicionar essa linha `AddVMOption -Duser.timezone="+00:00"`
+  * DBEaver
+    * Abrir o arquivo `/usr/share/dbeaver/dbeaver.ini`
+    * Adicionar a linha `-Duser.timezone=UTC`
